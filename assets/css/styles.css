@@ -46,7 +46,11 @@ nav{
     text-decoration: none;
     cursor: pointer;
     box-shadow: 7px 7px 7px black;
-}#tituloEventos{
+}
+.boton:hover{
+    transform: scale(1.1,1.1);
+}
+#tituloEventos{
     background-color: #3caa85;
     color: white;
     font-size: 30px;
