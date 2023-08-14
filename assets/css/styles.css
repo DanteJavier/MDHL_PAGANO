@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,9 +11,10 @@ img{
 }
 header{
     position: relative;
+
 }
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Tektur', cursive;
 }
 h1{
     background-color:#3caa85;
@@ -54,13 +58,12 @@ nav{
     background-color: #3caa85;
     color: white;
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     height: 60px;
     text-shadow: 1px 1px 2px black;
     margin-top: -0.5%;
 }
-#home, #about, #contact, #rules, #schedule{
+#home, #about, #contact, #rules, #schedule, #registration{
     background-color:#cef132;
     color: black;
 }
@@ -108,4 +111,74 @@ table{
 table, th, td{
     border: 2px solid;
     text-align: center;
+}
+.maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/**========================== FORM ==========================**/
+form{
+    width: 90vh;
+}
+legend{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #127e75;
+    border: 2px black solid;
+    color: aliceblue;
+}
+#persona{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.label{
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#school{
+    display: flex;
+    justify-content: space-around;
+}
+.school{
+    display: flex;
+    flex-direction: column;
+}
+.position{
+    margin-left: 20px;
+}
+.conditions{
+    margin: 15px;
+}
+.submit{
+    background-color: #127e75;
+    padding: 8px 16px;
+    color: white;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 7px 7px 7px black;
+    margin-top: 15px;
+}
+.submit:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+footer{
+    margin-top: 50px;
 }
