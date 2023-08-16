@@ -9,7 +9,9 @@
 </head>
 <body>
     <header>
-        <h1>Mighty Ducks Hockey League</h1>
+        <div class="h1">
+            <h1>Mighty Ducks Hockey League</h1>
+        </div>
         <nav class="navegador">
             <a class="boton" id="home" href="#">Home</a>
             <a class="boton" href="./rules.html">Rules of play</a>
@@ -20,12 +22,12 @@
         </nav>
         <img id="banner" src="./assets/img/design1_image1.jpg" alt="Banner">
         <div id ="tituloEventos">
+            <img id="logo" src="./assets/img/logoMightyDucks_01.png" alt="logotipo">
             <h2>Upcoming Events</h2>
         </div>
     </header>
     <main>
-        <img id="logo" src="./assets/img/logoMightyDucks_01.png" alt="logotipo">
-        <section>
+        <section class="fechas">
             <h3>August 4</h3>
             <p>MDSL Fundraiser</p>
             <h3>August 16</h3>
@@ -33,6 +35,37 @@
             <h3>September 1</h3>
             <p>First Game of the Season (Check Game Schedule for details)</p>
         </section>
+        <div id="conteItemCarrusel">
+            <div class="itemCarrusel" id="itemCarrusel-1">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                    <img class="imgCarrusel" src="./assets/img/design1_image1.jpg" alt="hockey1">
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-3"><i>I</i></a>
+                    <a href="#itemCarrusel-2"><i>D</i></a>
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itemCarrusel-2">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                    <img class="imgCarrusel" src="./assets/img/design1_image2.jpg" alt="hockey1">
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-1"><i>I</i></a>
+                    <a href="#itemCarrusel-3"><i>D</i></a>
+
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itemCarrusel-3">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                    <img class="imgCarrusel" src="./assets/img/hockey3.jpg" alt="hockey1">
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-2"><i>I</i></a>
+                    <a href="#itemCarrusel-1"><i>D</i></a>
+
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <h1>Mighty Ducks Hockey League</h1>
